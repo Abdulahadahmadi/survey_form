@@ -1,0 +1,111 @@
+
+
+body {
+   text-align: center;
+   background-image: url("back-image.jpg"); 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding-bottom: 30px;
+  
+   
+}
+p{
+    font-size: 22px;
+    
+}
+.text
+{
+    text-align: left;
+}
+#title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(10, 89, 134);
+    font-weight: 200;
+    
+}
+#description
+{
+    font-size: 21px;
+    color:rgb(42, 118, 168);
+    font-style: italic;
+    text-shadow: 1px 1px 1px rgb(30, 96, 172) ;
+
+}
+form
+{
+    background-color: rgba(46, 154, 173, 0.8);
+    margin-left: center;
+    width: 600px;
+    border-radius: 2%;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color:white;
+    font-family:   cursive,sans-serif;
+}
+.in-textarea {
+    min-height: 120px;
+    width: 80%;
+    margin-left: -20px;
+    resize: vertical;
+    border-radius: 10px;
+  }
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.1;
+    
+  }
+  .textbox {
+    font-size: 15px;
+    display: block;
+    align-items: center;
+    width: 95%;
+    height: 25px;
+    padding: 0.2rem 0.22rem;
+    background-color: white;
+    border: 1px solid #cacaa4;
+    border-radius: 4px;
+  }
+  #radio-label
+  {
+      margin-top: -10px;
+      margin-bottom: -10px;
+      
+      
+  }
+
+.form-group
+{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#name-label
+{
+    text-align: left;
+}
+
+
+#submit
+{
+    
+    display: block;
+    background:rgb(42, 137, 167);
+    width: 95%;
+    color:white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    border-color:rgb(48, 57, 180);
+    border-style: solid;
+    cursor: pointer;
+
+}
